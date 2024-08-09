@@ -16,7 +16,7 @@
                 <div>
                     <p>이름: 김자바</p>
                     <p>직책: 대리</p>
-                    <p>사번: 100100</p>
+                    <p>사번: ${user.empno }</p>
                     <p>김자바 님 환영합니다.</p>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                     <a href="#">Home</a>
                     <a href="#">연봉계산기</a>
                     <a href="#">개인정보수정</a>
-                    <a href="#">로그아웃</a>
+                    <a href="/logout">로그아웃</a>
                 </nav>
             </div>
         </header>
@@ -38,7 +38,7 @@
             <aside>
                 <ul class="menu">
                     <li><a href="#">통합업무</a></li>
-                    <li><a href="#">게시판</a></li>
+                    <li><a href="/boards">게시판</a></li>
                     <li><a href="#">전자결재</a></li>
                     <li><a href="#">결재승인</a></li>
                     <li><a href="#">캘린더</a></li>
